@@ -56,15 +56,17 @@ a:hover {
 }
 
 input {
-    width: 582px;
+    width: 500px;
     background: #fff;
     display: flex;
     border: none #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
     z-index: 3;
-    height: 44px;
+    height: 40px;
     margin: 0 auto;    
+    outline: none;
+    font-size: 15px;
 }
 
 button {
@@ -101,6 +103,7 @@ button:hover {
     border: 1px solid #DCDCDC;
     border-radius: 25px;
     display: flex;
+    text-rendering: auto;
     font-size: 40px;
 }
 
@@ -125,15 +128,25 @@ button:hover {
 .foot_nav {
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     background-color: #f5f5f5;
-    padding: 20px;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #5f6368;
+    line-height: 40px;
 }
 
 .bot_lefty {
     float: left;
+    padding-left: 30px;
 }
 
 .bot_righty {
     float: right;
+    padding-right: 30px;
 }
